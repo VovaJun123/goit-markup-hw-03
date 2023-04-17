@@ -283,7 +283,17 @@ body {
     width: 1128px;
     height: 412px;
     top: 944px;
+    padding-bottom: 120px;
 
+}
+
+.logo-thre {
+    margin-bottom: 72px;
+}
+
+.thre {
+    display: flex;
+    gap: 24px;
 }
 
 .thre-bloc h2 {
@@ -303,7 +313,11 @@ body {
     color: #2E2F42;
 }
 
-.thre .link-one {
+.llink {
+    width: calc((100% - 48px) / 3);
+}
+
+/* .thre .link-one {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -340,7 +354,7 @@ body {
     height: 300px;
     left: 924px;
     top: 232px;
-}
+} */
 
 
 .four-bloc {
