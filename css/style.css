@@ -175,6 +175,13 @@ body {
     width: 1128px;
     height: 104px;
     top: 720px;
+    padding: 120px 0;
+
+}
+
+.second {
+    display: flex;
+    gap: 24px;
 
 }
 
@@ -183,12 +190,17 @@ body {
     max-width: 496px;
 }
 
+.linkcc-logo {
+    margin-bottom: 8px;
+}
+
 .second .link-one {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
+    width: calc((100% - 72px) / 4);
 
     position: absolute;
     width: 264px;
