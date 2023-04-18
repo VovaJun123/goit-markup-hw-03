@@ -201,15 +201,17 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
-
     position: absolute;
     width: 264px;
     height: 104px;
     left: 156px;
 }
 
-.second .link-two {
+.link-one {
+    width: calc((100% - 72px) / 4);
+}
+
+/* .second .link-two {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -249,7 +251,7 @@ body {
     height: 104px;
     left: 1020px;
 
-}
+} */
 
 .second h3 {
     width: 264px;
