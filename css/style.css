@@ -317,44 +317,7 @@ body {
     width: calc((100% - 48px) / 3);
 }
 
-/* .thre .link-one {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
 
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 156px;
-    top: 232px;
-}
-
-.thre .link-two {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 540px;
-    top: 232px;
-}
-
-.thre .link-thre {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 924px;
-    top: 232px;
-} */
 
 
 .four-bloc {
@@ -363,6 +326,7 @@ body {
     height: 732px;
     left: 0px;
     top: 1568px;
+    padding: 100px 0;
 
 
     background: #F4F4FD;
@@ -388,7 +352,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    text-align: center;
+
     letter-spacing: 0.02em;
     color: #434455;
 
@@ -397,6 +361,16 @@ body {
 .four-parahraf {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
+}
+
+.four-logo {
+    margin-bottom: 72px;
+}
+
+.four {
+    display: flex;
+    gap: 24px;
 }
 
 .four-bloc h2 {
@@ -412,7 +386,7 @@ body {
     line-height: 1.11;
 
 
-    text-align: center;
+
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
@@ -432,10 +406,20 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 
 }
 
-.four :nth-child(1) {
+.link-box {
+    padding: 32px 16px;
+}
+
+.linkcc-logo {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.linkk .four :nth-child(1) {
     left: 156px;
     top: 242px;
 }
@@ -462,8 +446,6 @@ body {
     left: 0px;
     top: 2280px;
     background: #2E2F42;
-    
-    padding: 100px 0;
 }
 
 .last {
@@ -507,17 +489,26 @@ body {
 }
 
 .last-parahraf {
-    
+    position: absolute;
+
     height: 72px;
     left: 156px;
     top: 140px;
     max-width: 264px;
+
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+
+
     letter-spacing: 0.02em;
+
+
+
     color: #F4F4FD;
 }
 
