@@ -465,9 +465,10 @@ body {
 }
 
 .last {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 16px;
     padding: 0px;
 
     position: absolute;
@@ -509,19 +510,20 @@ body {
     height: 72px;
     left: 156px;
     top: 140px;
+    max-width: 264px;
 
-    /* Body */
+
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
+
 
     letter-spacing: 0.02em;
 
-    /* CLOUD */
+
 
     color: #F4F4FD;
 }
@@ -537,6 +539,7 @@ body {
     left: 0px;
     top: 1764px;
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .lastt {
