@@ -105,7 +105,7 @@ body {
 
 .first-bloc h1 {
     position: absolute;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     left: 472px;
     top: 188px;
@@ -122,6 +122,7 @@ body {
 
 
 .first-button {
+
 
     display: block;
     flex-direction: row;
@@ -153,13 +154,12 @@ body {
     position: absolute;
     left: 636px;
     top: 428px;
-    height: 24px;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
