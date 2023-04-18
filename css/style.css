@@ -3,6 +3,7 @@
     --pane-padding: 5px 42px;
     --second-background-color: #404BBF;
     --thre-background-color: #4d5ae5;
+    --button-background-color: #e7e9fc;
 }
 
 
@@ -516,6 +517,10 @@ body {
 
 
 /* portfolio */
+.parahraf-conteiner {
+    padding: 96px 0 120px;
+}
+
 .lastt-bloc {
     position: absolute;
     width: 1440px;
@@ -703,16 +708,18 @@ body {
 
 .meenu {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 40px;
+    gap: 24px;
     position: absolute;
     width: 626px;
     height: 48px;
     left: 427px;
     top: 168px;
     list-style: none;
+    margin-bottom: 72px;
 }
 
 
@@ -743,6 +750,13 @@ body {
 .filter:is(:hover, :focus) {
     background-color: var(--second-background-color, #404BBF);
     color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.filter {
+    padding: 12px 24px;
+    border: 1px solid var(--button-background-color);
+    border-radius: 4px;
 }
 
 
@@ -906,6 +920,10 @@ body {
     top: 235px;
     list-style-type: none;
     margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 
@@ -949,9 +967,20 @@ body {
     top: 288px;
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
 }
 
-.firstt :nth-child(1) {
+.link-boxx {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.linkcc-logo {
+    margin-bottom: 8px
+}
+
+.lin .firstt :nth-child(1) {
     left: 156px;
     top: 73px;
 }
