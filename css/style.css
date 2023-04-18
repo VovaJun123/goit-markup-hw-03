@@ -462,6 +462,8 @@ body {
     left: 0px;
     top: 2280px;
     background: #2E2F42;
+    
+    padding: 100px 0;
 }
 
 .last {
@@ -505,26 +507,17 @@ body {
 }
 
 .last-parahraf {
-    position: absolute;
-    width: 264px;
+    
     height: 72px;
     left: 156px;
     top: 140px;
     max-width: 264px;
-
-
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-
     letter-spacing: 0.02em;
-
-
-
     color: #F4F4FD;
 }
 
