@@ -331,9 +331,11 @@ body {
     color: #434455;
 }
 
-
+.logo-thre {
+    margin-bottom: 72px;
+}
 .thre-bloc h2 {
-    margin-bottom: 72px; 
+    
     margin: 0 auto;
     width: 333px;
     height: 40px;
