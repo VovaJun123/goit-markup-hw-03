@@ -269,7 +269,7 @@ body {
 }
 
 .link-one {
-    width: calc((100% - 72px) / 4);
+     width: calc((100% - 3 * 24px) / 4);
 }
 
 .second h3 {
@@ -331,12 +331,10 @@ body {
     color: #434455;
 }
 
-.logo-thre {
-    margin-bottom: 72px;
-}
+
 .thre-bloc h2 {
     
-    margin: 0 auto;
+    margin-bottom: 72px;
     width: 333px;
     height: 40px;
     font-family: 'Roboto';
@@ -461,6 +459,8 @@ body {
     width: 1440px;
     height: 312px;
     background: #2E2F42;
+    padding-top: 100px; 
+    padding-bottom: 100px;
 
 }
 
@@ -574,7 +574,7 @@ body {
 }
 
 .link-boxx {
-    /* padding: 32px 16px; */
+     padding: 32px 16px; 
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -588,13 +588,13 @@ body {
 /* ..................................................portfolio-button */
 
 .parahraf-conteiner {
-    /* padding: 96px 0 120px; */
+     padding: 96px 0 120px; 
 
 }
 
 .meenu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     padding: 0px;
