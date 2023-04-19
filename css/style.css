@@ -21,6 +21,7 @@ body {
 
 
 .header-link {
+    display: flex;
     align-items: center;
     width: 1440px;
     left: 0px;
