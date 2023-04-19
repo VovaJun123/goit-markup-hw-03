@@ -88,7 +88,6 @@ body {
     color: #4D5AE5;
     text-decoration: none;
     margin-right: 76px;
-
     display: inline-block;
     flex-direction: row;
 
@@ -168,6 +167,8 @@ body {
     left: 0px;
     top: 72px;
     background: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 
@@ -332,7 +333,7 @@ body {
 
 
 .thre-bloc h2 {
-    /* margin-bottom: 72px; */
+    margin-bottom: 72px; 
     margin: 0 auto;
     width: 333px;
     height: 40px;
