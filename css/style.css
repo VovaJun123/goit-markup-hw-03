@@ -320,6 +320,9 @@ img {
     padding-top: 72px;
 
 }
+.llink {
+    width: calc((100% - 48px) / 3);
+}
 
 .three p {
     width: 80px;
@@ -566,9 +569,9 @@ img {
 
 .firstt-link {
     box-sizing: border-box;
-    width: 360px;
+    
     height: 420px;
-    top: 288px;
+    
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
