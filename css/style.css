@@ -5,6 +5,9 @@
     --thre-background-color: #4d5ae5;
     --button-background-color: #e7e9fc;
 }
+ul{
+    padding-left: 0;
+}
 
 
 body {
