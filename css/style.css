@@ -439,6 +439,7 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
+    width: calc((100% - 48px) / 3);
 
 }
 
@@ -470,7 +471,7 @@ ul {
 
 
 }
-.meenu li {
+.firstt .firstt-link {
     width: calc((100% - 48px) / 3);
 }
 
