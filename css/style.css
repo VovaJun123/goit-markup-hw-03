@@ -470,7 +470,7 @@ ul {
 
 
 }
-.firstt-link{
+.meenu li {
     width: calc((100% - 48px) / 3);
 }
 
