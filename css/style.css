@@ -439,6 +439,7 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
+     padding-left: 0;
     
 
 }
@@ -463,11 +464,11 @@ ul {
 
 .firstt-link {
     
-    box-sizing: border-box;
-    height: 420px;
-    background: #FFFFFF;
-    border: 1px solid #E7E9FC;
-    width: calc((100% - 48px) / 3); 
+     box-sizing: border-box;
+    background: var(--main-color);
+    border: 1px solid var(--button-background-color);
+    width: calc((100% - 48px) / 3);
+
 
 
 
