@@ -17,11 +17,27 @@ body {
 
 }
 
+img {
+    display: block;
+}
+
+ul {
+    padding-left: 0;
+}
+
 /* ...........................................................header */
+.header-conteiner {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px 0 15px;
+}
+
+
 
 
 .header-link {
     align-items: center;
+    display: flex;
 }
 
 .header-bloc {
@@ -47,6 +63,8 @@ body {
 
 .menuuu {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 
 }
 
@@ -56,6 +74,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
+    margin-right: 76px;
     line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
@@ -71,6 +90,8 @@ body {
 .menuu {
 
     justify-content: center;
+    display: flex;
+    gap: 40px;
 }
 
 .list {
@@ -119,12 +140,15 @@ body {
 
 .first-bloc {
     background: var(--logo-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 
 
 .first-bloc h1 {
     display: block;
+    max-width: 496px;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -138,6 +162,8 @@ body {
 
 
 .first-button {
+    min-width: 169px;
+    height: 56px;
     display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -167,11 +193,23 @@ body {
 /*............................................................ section-2 */
 
 
+.second-bloc {
 
+    padding: 120px 0;
+}
+
+.second {
+    display: flex;
+    gap: 24px;
+}
 
 .blocc-logo {
     visibility: hidden;
 
+}
+
+.link-one {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -208,6 +246,19 @@ body {
 /*............................................................ section-3 */
 
 
+.thre-bloc {
+    padding-bottom: 120px;
+}
+
+.thre {
+    display: flex;
+    gap: 24px;
+
+}
+
+.thre .llink {
+    width: calc((100% - 48px) / 3);
+}
 
 .three p {
 
@@ -221,7 +272,7 @@ body {
 
 
 .thre-bloc h2 {
-
+    margin-bottom: 72px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -238,8 +289,13 @@ body {
 
 /*............................................................ section-4*/
 .four-bloc {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: var(--four-section-color);
+}
+
+.four-logo {
+    margin-bottom: 72px;
 }
 
 .four h3 {
@@ -287,7 +343,7 @@ body {
 }
 
 .four-link {
-
+    width: calc((100% - 72px) / 4);
     background: var(--main-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -295,18 +351,24 @@ body {
 
 }
 
+.four {
+    display: flex;
+    gap: 24px;
+}
+
 
 
 .linkcc-logo {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 
 /*............................................................ footer */
 .last-bloc {
-
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: var(--logo-color);
-
 }
 
 
@@ -334,6 +396,7 @@ body {
 .last {
     display: inline-block;
     align-items: center;
+    margin-bottom: 16px;
 
 }
 
@@ -351,13 +414,20 @@ body {
 
 /* ...................................................portfolio */
 
+.parahraf-conteiner {
+    padding: 96px 0 120px;
+
+}
 
 .secondd-logo {
     visibility: hidden;
 }
 
 .firstt {
-
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
     list-style-type: none;
 
 }
@@ -382,7 +452,7 @@ body {
 
 .firstt-link {
     box-sizing: border-box;
-
+    width: calc((100% - 48px) / 3);
     background: var(--main-color);
     border: 1px solid var(--button-background-color);
 
@@ -393,6 +463,11 @@ body {
 .link-boxx {
     border: 1px solid var(--button-background-color);
     border-top: none;
+    padding: 32px 16px;
+}
+
+.linkcc-logo {
+    margin-bottom: 8px;
 }
 
 .second-parahraf {
@@ -418,7 +493,10 @@ body {
 
 
 .meenu {
-
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
     align-items: center;
     list-style: none;
 }
@@ -427,6 +505,7 @@ body {
 
 .meenu button {
 
+    padding: 12px 24px;
     background-color: var(--four-section-color);
     border: 1px solid var(--button-background-color);
     border-radius: 4px;
