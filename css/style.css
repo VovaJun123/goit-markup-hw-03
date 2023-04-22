@@ -423,7 +423,9 @@ ul {
 
 
 /* ...................................................portfolio */
-
+.aaaaa {
+    width: calc((100% - 48px) / 3);
+}
 .parahraf-conteiner {
     padding: 96px 0 120px;
 
