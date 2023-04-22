@@ -441,6 +441,11 @@ ul {
     list-style-type: none;
 
 }
+.firstt .firstt-link{
+    
+    width: calc((100% - 48px) / 3);
+
+}
 
 
 
@@ -470,9 +475,7 @@ ul {
 
 }
 
-.meenu  .firstt-link{
-    width: calc((100% - 48px) / 3);
-}
+
 
 
 .link-boxx {
