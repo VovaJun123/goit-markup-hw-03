@@ -425,10 +425,16 @@ ul {
 /* ...................................................portfolio */
 .parahraf-conteiner {
     padding: 96px 0 120px;
-    width: 1158;
-    margin: 0 auto;
+   
 
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 .secondd-logo {
     visibility: hidden;
