@@ -423,11 +423,10 @@ ul {
 
 
 /* ...................................................portfolio */
-.aaaaa {
-    width: calc((100% - 48px) / 3);
-}
 .parahraf-conteiner {
     padding: 96px 0 120px;
+    width: 1158;
+    margin: 0 auto;
 
 }
 
@@ -441,11 +440,6 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
-
-}
-.firstt .firstt-link{
-    
-    width: calc((100% - 48px) / 3);
 
 }
 
@@ -472,7 +466,7 @@ ul {
     background: var(--main-color);
     border: 1px solid var(--button-background-color);
 
-
+    width: calc((100% - 48px) / 3);
 
 
 }
