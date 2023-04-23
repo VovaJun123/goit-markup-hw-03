@@ -23,6 +23,22 @@ img {
 
 ul {
     padding-left: 0;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* ...........................................................header */
@@ -39,6 +55,7 @@ ul {
 .header-link {
     align-items: center;
     display: flex;
+    margin: 0;
 }
 
 .header-bloc {
@@ -114,6 +131,7 @@ ul {
     color: var(--logo-color);
     list-style-type: none;
     font-style: normal;
+
 }
 
 
@@ -132,6 +150,7 @@ ul {
 
 .main-contact {
     font-style: normal;
+    margin-left: 332px;
 }
 
 .linkk-header {
@@ -147,6 +166,10 @@ ul {
 
 }
 
+.first-conteiner button {
+    margin-top: 48px;
+}
+
 
 .first-bloc h1 {
     display: block;
@@ -159,6 +182,8 @@ ul {
     align-items: center;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    margin-top: 0;
+    margin: 0 auto;
 }
 
 
@@ -181,6 +206,7 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: var(--thre-background-color);
+    margin: 0 auto;
 
 }
 
@@ -207,6 +233,9 @@ ul {
 
 .blocc-logo {
     visibility: hidden;
+    margin: 0;
+    padding: 0;
+    display: none;
 
 }
 
@@ -236,8 +265,8 @@ ul {
 
 .second p {
 
-  
-    
+
+
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -399,6 +428,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--four-section-color);
+    width: 264px;
 }
 
 
@@ -407,10 +437,11 @@ ul {
 /* ...................................................portfolio */
 .parahraf-conteiner {
     padding: 96px 0 120px;
-   
+
 
 }
-.container{
+
+.container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
