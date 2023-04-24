@@ -474,9 +474,7 @@ p {
 
 
 .firstt-link {
-    box-sizing: border-box;
     background: var(--main-color);
-    border: 1px solid var(--button-background-color);
     width: calc((100% - 48px) / 3);
 }
 
