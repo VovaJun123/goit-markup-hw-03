@@ -246,9 +246,11 @@ p {
 }
 
 
-
+.linkcc-logo{
+  text-align: left;
+}
 .second h3 {
-     text-align: left;
+   
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -258,9 +260,6 @@ p {
 }
 
 .second p {
-
-
-
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
