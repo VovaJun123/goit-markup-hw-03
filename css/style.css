@@ -168,9 +168,7 @@ h6 {
 
 }
 
-.first-conteiner .first-button {
-    margin-top: 48px;
-}
+
 
 
 .first-bloc h1 {
@@ -185,6 +183,7 @@ h6 {
     letter-spacing: 0.02em;
     color: var(--main-color);
     margin-top: 0;
+     margin-bottom: 48px;
     margin: 0 auto;
 }
 
