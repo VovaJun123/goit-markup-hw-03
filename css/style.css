@@ -300,6 +300,7 @@ p {
 
 
 .thre-bloc h2 {
+    margin-top: 0;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -327,6 +328,8 @@ p {
 
 .four-logo {
     margin-bottom: 72px;
+    margin-top: 0;
+
 }
 
 .four h3 {
