@@ -143,7 +143,6 @@ p {
 
 .main-contact {
     font-style: normal;
-     padding-top: 24px;
     margin: 0 auto;
 }
 
@@ -255,7 +254,7 @@ p {
 
 .linkcc-logo{
   text-align: left;
-    mar
+   margin: 0;
 }
 .second h3 {
    
