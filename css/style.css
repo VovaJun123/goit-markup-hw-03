@@ -47,8 +47,8 @@ p {
 .header-link {
     align-items: center;
     display: flex;
-    margin: 0;
-    margin: 24px 0;
+    margin: 0 auto;
+    
 }
 
 .header-bloc {
@@ -143,12 +143,18 @@ p {
 
 .main-contact {
     font-style: normal;
-    margin-left: 332px;
-    margin-top: 24px;
+     padding-top: 24px;
+    margin: 0 auto;
 }
 
 .linkk-header {
     padding: 24px 0;
+    display: block;
+}
+
+.linkk-contact {
+    padding: 24px 0;
+    display: block;
 }
 
 /*............................................................ section-1 */
@@ -242,12 +248,14 @@ p {
 .second .link-one {
 
     align-items: flex-start;
+    margin: 0;
 
 }
 
 
 .linkcc-logo{
   text-align: left;
+    mar
 }
 .second h3 {
    
